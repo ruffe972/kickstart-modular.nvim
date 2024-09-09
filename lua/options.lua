@@ -71,3 +71,5 @@ vim.opt.iminsert = 0 -- активировать английский при с�
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 0
 vim.opt.expandtab = true
+
+vim.opt.conceallevel = 2
