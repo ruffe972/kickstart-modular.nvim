@@ -13,13 +13,17 @@ return {
         name = "personal",
         path = "~/documents/personal_notes",
       },
+      {
+        name = "work",
+        path = "~/Documents/notes",
+      },
     },
     disable_frontmatter = true,
     ui = {
       checkboxes = {
         -- Отключил иконки и лишние состояния
         [" "] = { hl_group = "ObsidianTodo" },
-        ["x"] = { hl_group = "ObsidianDone" },
+        ["X"] = { hl_group = "ObsidianDone" },
       },
     },
   },
