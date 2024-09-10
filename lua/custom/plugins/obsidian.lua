@@ -1,3 +1,10 @@
+function isWorkPc()
+  return jit.os ~= "Linux"
+end
+
+-- local workspace
+
+
 return {
   "epwalsh/obsidian.nvim",
   version = "*",
@@ -9,10 +16,10 @@ return {
   },
   opts = {
     workspaces = {
-      {
-        name = "personal",
-        path = "~/documents/personal_notes",
-      },
+      -- {
+      --   name = "personal",
+      --   path = "~/documents/personal_notes",
+      -- },
       {
         name = "work",
         path = "~/Documents/notes",
