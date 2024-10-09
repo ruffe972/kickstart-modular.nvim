@@ -74,3 +74,6 @@ vim.opt.expandtab = true
 
 vim.opt.conceallevel = 2
 vim.opt.autowriteall = true
+
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
